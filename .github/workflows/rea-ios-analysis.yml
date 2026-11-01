@@ -2,7 +2,7 @@ name: REA iOS macOS analysis
 
 on:
   push:
-    branches: [codex/rea-ios-macos-analysis]
+    branches: [main, zeus/comic-v2]
     paths: [.rea-ios/**, .github/workflows/rea-ios-analysis.yml]
   workflow_dispatch:
 

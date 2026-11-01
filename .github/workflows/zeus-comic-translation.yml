@@ -1,7 +1,7 @@
 name: ZEUS comic image translation
 on:
   push:
-    branches: [feature/zeus-manhwa-translation-20261101]
+    branches: [main, zeus/comic-v2]
     paths: ['ZEUSNext/**', 'Native/ComicRuntime/**', '.zeus-ci/**', '.openminis/Host/NativeComicTranslationTests.swift', '.github/workflows/zeus-comic-translation.yml']
   workflow_dispatch:
 permissions:
